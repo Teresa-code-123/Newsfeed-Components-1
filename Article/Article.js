@@ -102,8 +102,8 @@ const data = [
   Hint: You will need to use createElement more than once here!
 
   Your function should take either an object as it's one argument, or 5 separate arguments mapping to each piece of the data object above.
-
-  Step 2: Add an event listener to the expandButton span. This event listener should toggle the class 'article-open' on the 'article' div.
+  
+ Step 2: Add an event listener to the expandButton span. This event listener should toggle the class 'article-open' on the 'article' div.
 
   Step 3: return the entire component.
 
@@ -112,3 +112,8 @@ const data = [
   Step 5: Add a new article to the array. Make sure it is in the same format as the others. Refresh the page to see the new article.
 
 */
+//Step 1: Create a function that creates a component. You will want your component to look like the template below: 
+   const articles = document.querySelector('.articles');
+   function articleMaker(obj) {
+    //instantiate elements needed for article
+   }
