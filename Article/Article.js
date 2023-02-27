@@ -115,5 +115,23 @@ const data = [
 //Step 1: Create a function that creates a component. You will want your component to look like the template below: 
    const articles = document.querySelector('.articles');
    function articleMaker(obj) {
-    //instantiate elements needed for article
+
+    //instantiate createElements needed for article
+    const article = document.createElement('div');
+    const articleTitle = document.createElement('h2');
+    const articleDate = document.createElement('p');
+    const firstParagraph = document.createElement('p');
+    const secondParagraph = document.createElement('p');
+    const thirdParagraph = document.createElement('p');
+    const span = document.createElement('span');
+
+    // set up the structure of our elements 
+    
+
+
+    //add classnames to our elements
+    //set text content using obj
+
+
+    return articleMaker;
    }
